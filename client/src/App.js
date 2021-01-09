@@ -120,9 +120,8 @@ class App extends Component {
             path="/saved"
             render={() => <Saved title={this.state.saved.title} />}
           />
-          <Route render={() => <NoMatch />} />
+      
         </Switch>
-        <BookFooter />
       </Router>
     );
   }
