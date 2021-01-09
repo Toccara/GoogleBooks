@@ -2,7 +2,8 @@ import axios from "axios";
 
 const API = {
   getBook: (query) => {
-    return axios.get(`AIzaSyBsNxFgYxILhkFLSYaos4q9P8H5Nw2aTHk${query}`);
+    return axios.get(`https://www.googleapis.com/books/v1/volumes?q=${query}`);
+    //return axios.get("/api/google", { params: { q: "title:" + q} });
   },
 
   deleteBook: (id) => {
