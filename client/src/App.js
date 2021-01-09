@@ -4,7 +4,6 @@ import BookNavbar from "./layout/BookNavbar";
 import Home from "./pages/Home";
 import Search from "./pages/Search";
 import Saved from "./pages/Saved";
-import BookFooter from "./layout/BookFooter";
 import API from "./utils/API";
 
 class App extends Component {
