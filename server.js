@@ -3,7 +3,7 @@ const logger = require("morgan");
 const mongoose = require("mongoose");
 const routes = require("./routes");
 //const compression = require("compression");
-require("dotenv").config();
+//require("dotenv").config();
 
 const PORT = process.env.PORT || 3001;
 
